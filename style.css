@@ -148,6 +148,7 @@ div#big-pic {
 
 
 
+
 /*MB 101-200*/
 h2 {
     font-size: 2em;
@@ -174,6 +175,46 @@ h2 {
     grid-row: 2/3;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#products {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    background: rgb(65, 105, 225);
+    height: 400px;
+    width: 30%;
+    margin: 10px;
+    border: solid rgb(58, 64, 75);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(27, 0, 97);
+}
 
 
 
