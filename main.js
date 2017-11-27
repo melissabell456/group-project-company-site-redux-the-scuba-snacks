@@ -1,50 +1,56 @@
-var products [
+var productList = [
     {
-        name: "Crabby Patty"
-        description: "<h6>You'll never get the secret recipe</h6>"
-        image:
-        price:
+        name: "Crabby Patty",
+        description: "You'll never get the secret recipe",
+        url: "<img src='img/crabbyPatty.jpg'>",
+        price: "$1.99",
     },
     {
-        name: "Banana"
-        description: "<h6>Need an insulin spike?</h6>"
-        image:
-        price:
+        name: "Banana",
+        description: "Need an insulin spike?",
+        url: "<img src='img/banana.jpg'>",
+        price: "$.50",
     },
     {
-        name: "Beef Jerky"
-        description: "<h6>Goes great with the saltwater!<h6>"
-        image:
-        price:
+        name: "Beef Jerky",
+        description: "Goes great with the saltwater!",
+        url: "<img src='img/jerky.jpg'>",
+        price: "$6.50",
     },
     {
-        name: "Donut"
-        description: "<h6>Not for use as a flotation device</h6>"
-        image:
-        price:
+        name: "Donut",
+        description: "Not for use as a flotation device",
+        url: "<img src='img/donut.jpg'>",
+        price: "$1.00",
     },
     {
-        name: "Filet"
-        description: "<h6>For the fancy divers</h6>"
-        image:
-        price:
+        name: "Filet",
+        description: "For the fancy divers",
+        url: "<img src='img/filet.jpg'>",
+        price: "$29.99",
     },
     {
-        name: "Water"
-        description: "<h6>Just in case</h6>"
-        image:
-        price:
+        name: "Water",
+        description: "Just in case",
+        url: "<img src='img/water.jpg'>",
+        price: "$2.00",
     },
     {
-        name: "Mermaid Cupcake"
-        description: "<h6>Trending!</h6>"
-        image:
-        price:
+        name: "Mermaid Cupcake",
+        description: "Trending!",
+        url: "<img src='img/cupcake.jpg'>",
+        price: "$4.50",
     },
     {
-        name: "Goldfish"
-        description: "<h6>We found Nemo!</h6>"
-        image:
-        price:
-    },
-]
+        name: "Goldfish",
+        description: "We found Nemo!",
+        url: "<img src='img/goldfish.jpg'>",
+        price: "$2.50",
+    }
+];
+
+var productGroup = document.getElementById("products");
+for (var i = 0; i < productList.length; i++) {
+    productGroup.innerHTML+= "<div class='card'>" + "<div class='name'>" + productList[i].name + "</div>" + "<div class='description'>" + productList[i].description + "</div>" + "<div class='image'>" + productList[i].url + "</div>" + "<div class='price'>" + productList[i].price + "</div>" + "</div>";
+};
+
