@@ -198,21 +198,23 @@ h2 {
 
 
 
-.card {
-    background: royalblue;
-    height: 500px;
-    border: solid rgb(58, 64, 75);
-    display: inline-flex;
-
+#products {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 
-
-
-
-
-
-
-
+.card {
+    background: rgb(65, 105, 225);
+    height: 400px;
+    width: 30%;
+    margin: 10px;
+    border: solid rgb(58, 64, 75);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(27, 0, 97);
+}
 
 
 
