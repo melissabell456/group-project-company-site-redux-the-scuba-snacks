@@ -9,6 +9,7 @@ body {
     margin: 0;
     font-family: Palatino, Helvetica, sans-serif;
     font-weight: 900;
+    background-color: #0F35BB;
 }
 header {
     position: fixed;
@@ -48,10 +49,10 @@ nav ul li a {
             index page
 *********************************/
 div#big-pic {
-    background-image: url("img/diver.jpg"); 
+    background: linear-gradient(transparent, #0F35BB 90%),url("img/diver.jpg"); 
     margin: 60px 0 0 0;
     width: 100%;
-    height: 800px;
+    height: 1080px;
     background-repeat: no-repeat;
     display: flex;
     align-content: center;
@@ -61,12 +62,16 @@ div#big-pic {
 
 div#name {
     margin-top: 300px;
-    font-size: 5em;
+    font-size: 3em;
     color: white;
     text-shadow: 2px 2px darkblue;
     text-shadow: 4px 4px 2px aquamarine;
 }
 
+div#name h6 {
+    text-align: center;
+    text-shadow: 2px 2px 2px aquamarine;
+}
 #featured {
     display: flex;
     justify-content: center;
