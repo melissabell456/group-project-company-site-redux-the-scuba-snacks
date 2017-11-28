@@ -105,6 +105,11 @@ div#big-pic {
 }
 h2 {
     font-size: 2em;
+    text-align: center;
+    border: solid rgb(58, 64, 75);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(27, 0, 97);
+    background-color: #9AFE9B;
 }
 #mainBody {
     display: grid;
