@@ -198,6 +198,22 @@ h2 {
 
 
 
+.meetTeam {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Indie Flower', cursive, 'Trebuchet MS';
+    width: 525px;
+    background-color: rgb(231, 250, 243);
+    color: rgba(57, 116, 243, 0.685);
+    border-bottom: 5px solid rgb(133, 219, 183);
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px rgb(65, 105, 225);
+    padding: 2px;
+    text-shadow: 2px 2px 5px rgb(133, 219, 183);
+    font-size: 4em;
+    text-align: center;
+}
+
 #products {
     display: flex;
     justify-content: center;
@@ -216,8 +232,39 @@ h2 {
     box-shadow: 3px 3px 5px rgb(27, 0, 97);
 }
 
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
 
+.employee {
+    
+    background: rgb(231, 250, 243);
+    height: 425px;
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+    border: 1.5px solid rgb(133, 219, 205);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(65, 105, 225);
+    text-align: center;
+    font-family: 'Indie Flower', cursive, 'Trebuchet MS';
+    color: rgba(57, 116, 243, 0.685);
+}
 
+.empName {
+    background-color: rgb(249, 255, 253);
+    font-size: 40px;
+    margin: .25em;
+    border-bottom: 1px solid rgb(133, 219, 183);
+    border-right: 1px solid rgb(133, 219, 183);
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px rgb(65, 105, 225);
+}
 
-
+.empTitle {
+    font-size: 25px;
+    border-bottom: 1px solid rgb(133, 219, 183);
+    border-top: 1px solid rgb(133, 219, 183);
+}
 
