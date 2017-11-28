@@ -1,10 +1,5 @@
 var productList = [
-    {
-        name: "Crabby Patty",
-        description: "You'll never get the secret recipe",
-        url: "<img src='img/crabbyPatty.jpg'>",
-        price: "$1.99"
-    },
+   
     {
         name: "Banana",
         description: "Need an insulin spike?",
@@ -19,7 +14,7 @@ var productList = [
     },
     {
         name: "Donut",
-        description: "Not for use as a flotation device",
+        description: "Not a Flotation device",
         url: "<img src='img/donut.jpg'>",
         price: "$1.00"
     },
@@ -36,16 +31,22 @@ var productList = [
         price: "$2.00"
     },
     {
+        name: "Goldfish",
+        description: "We found Nemo!",
+        url: "<img src='img/goldfish.jpg'>",
+        price: "$2.50"
+    },
+    {
         name: "Mermaid Cupcake",
         description: "Trending!",
         url: "<img src='img/cupcake.jpg'>",
         price: "$4.50"
     },
     {
-        name: "Goldfish",
-        description: "We found Nemo!",
-        url: "<img src='img/goldfish.jpg'>",
-        price: "$2.50"
+        name: "Crabby Patty",
+        description: "You'll never get the secret recipe",
+        url: "<img src='img/crabbyPatty.jpg'>",
+        price: "$1.99"
     }
 ];
 
