@@ -66,6 +66,13 @@ div#name {
     text-shadow: 2px 2px darkblue;
 }
 
+#featured {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 
 
 

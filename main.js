@@ -56,19 +56,5 @@ for (var i = 0; i < productList.length; i++) {
 };
 
 
-let feat1 = (Math.random() * 9).toFixed(0);
-let feat2 = (Math.random() * 9).toFixed(0);
-let feat3 = (Math.random() * 9).toFixed(0);
-let counter = 0;
-while (feat1 === feat2 || feat1 === feat3 || feat2 === feat3) {
-    feat1 = Math.floor(Math.random() * 9).toFixed(0);
-    console.log(feat1);
-    feat2 = (Math.random() * 9).toFixed(0);
-    feat3 = (Math.random() * 9).toFixed(0);
-}
-console.log(counter);
 
-let featuredGroup = document.getElementById("featured");
-featuredGroup.innerHTML = "";
-featuredGroup.innerHTML += "<div class='card'>" + "<div class='name'>" + productList[feat1].name + "</div>" + "<div class='description'>" + productList[feat1].description + "</div>" + "<div class='image'>" + productList[feat1].url + "</div>" + "<div class='price'>" + productList[feat1].price + "</div>" + "</div>";
 
