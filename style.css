@@ -84,6 +84,10 @@ div#name h6 {
     text-align: center;
 }
 
+.home-title {
+    font-size: 3em;
+}
+
 
 
 
@@ -215,43 +219,34 @@ div.socialMedia {
     color:royalblue;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h2.meetTeam {
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 525px;
-    background-color: rgb(231, 250, 243);
-    color: rgba(57, 116, 243, 0.685);
-    border-bottom: 5px solid rgb(133, 219, 183);
-    border-radius: 40px;
-    box-shadow: 2px 2px 5px rgb(65, 105, 225);
-    padding: 2px;
-    text-shadow: 2px 2px 5px rgb(133, 219, 183);
-    font-size: 4em;
-    text-align: center;
+.mainFooter p {
+    margin-bottom: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  -----------------------Products page Cards---------------- */
 #products {
